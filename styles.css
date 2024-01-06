@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main-div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: url('./images/header.jpg');
+    /* background-repeat: none; */
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0 0%, 100% 0, 100% 88%, 75% 100%, 25% 100%, 0 85%, 0 21%);
+}
+.hg-logo{
+  display: block;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+  border: 2px solid linen;
+  line-height: 30px;
+  margin: 10px;
+  padding: 10px;
+}
+.p1{
+  text-align: center;
+  font-size: 50px;
+  font-weight: 900 lighter ;
+  color: #fff;
+}
+.p2{
+  font-size: 23px;
+  color: #fffff5;
+}
+header{
+    display: flex;
+    flex-direction: row;
+	/* gap: 20px; */
+	justify-content: space-between;
+	flex-wrap: wrap;
+    
+
+}
+/* trbl  */
+.img{
+    margin: 10%;
+    
+}
+nav > ul > li {
+    display: inline-block;
+    /* margin: 2%; */
+    padding: 25px; 
+}
+.a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    color: #fffff5 ;
+}
+.a:hover {
+    background-color: #ffccbb;
+  }
+  hgroup{
+    text-align: center;
+    /* line-height: 2em; */
+  }
+  h1{
+    
+    /* font-size: large; */
+    font-weight: 900;
+    color: #fffff2;
+    font-family:  Arial, Helvetica, sans-serif;
+    letter-spacing: 17px;
+    line-height: 100px;
+  }
+  h4{
+    font-family: 'Lato', sans-serif;
+    line-height: 28px;
+    color: #1c2c2c;
+    color-scheme: #7e9a9a, #f6d8ac, #8ec3eb, #2a6592;
+  }
+  .perent-explore{
+    display: flex;
+    justify-content: center;
+  } 
+.explore-div{
+    width: 200px;
+    height: 190px;
+    font-size: 50px;
+    margin: 30px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 900;
+    line-height: 150px; 
+    padding-top: 0px;
+    color: #0c0c2c;
+    border: 2px solid #ffccbb;
+    background-color: #99999999;
+    clip-path: polygon(0 0, 100% 0, 100% 65%, 65% 100%, 35% 100%, 0 65%);
+}
